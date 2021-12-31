@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <header>
+        <a class="text-decoration-none p-5 h4" href="../index.html"><- Go back</a>
+    </header>
+
+
+    <div class="card mx-auto mt-4" style="min-width: 500px; max-width: 50vw;">
+        <form id="formSchedule" class="px-5" autocomplete="off">
+            <div class="text-center my-3">
+                <a role="button" class="h1 my-3 text-decoration-none" data-bs-toggle="collapse" href="#collapseRegister"
+                    role="button" aria-expanded="false" aria-controls="collapseRegister">Add a new contact</a>
+            </div>
+            <div class="collapse" id="collapseRegister">
+                <div class="mb-3">
+                    <label for="input-name" class="form-label">Name:</label>
+                    <input class="form-control" id="input-name" type="text" placeholder="Example: Erick Alpuche">
+                </div>
+                <div class="mb-3">
+                    <label for="input-phone" class="form-label">Phone Number:</label>
+                    <input class="form-control" id="input-phone" type="text" placeholder="Example: 98311565xx">
+                </div>
+                <div class="mb-3">
+                    <label for="input-email" class="form-label">E-mail:</label>
+                    <input class="form-control" id="input-email" type="text" placeholder="example@mail.domain">
+                </div>
+                <div class="mb-4">
+                    <label for="input-company" class="form-label">Company:</label>
+                    <input class="form-control" id="input-company" type="text" placeholder="Example: ITChetumal">
+                </div>
+                <div class="d-flex mb-3">
+                    <button class="btn btn-success w-75 mx-auto" id="buttonSubmit" type="submit">Add</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div id="contacts" class="mt-5 container d-flex flex-wrap justify-content-center text-center gap-4">
+    </div>
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/helpers/validate-regex.js"></script>
+</body>
+
+</html>
