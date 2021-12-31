@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ErickAlpuche22/NetflixKiller.git"
+    "url": "git+https://github.com/ErickAlpuche22/NetflixKillerProyectoFinal.git"
   },
   "author": "Erick Alpuche",
-  "license": "ISC",
+  "license": "ISIC",
   "bugs": {
-    "url": "https://github.com/ErickAlpuche22/NetflixKiller/issues"
+    "url": "https://github.com/ErickAlpuche22/NetflixKillerProyectoFinal/issues"
   },
-  "homepage": "https://github.com/ErickAlpuche22/NetflixKiller#readme"
+  "homepage": "https://github.com/ErickAlpuche22/NetflixKillerProyectoFinal#readme"
 }
